@@ -1,4 +1,4 @@
-### Randomizer
+### Rand-Game
 Це консольний додаток, написаний на Go, який дозволяє користувачеві грати в гру з вгадуванням чисел.
 
 Функціонал
@@ -10,7 +10,7 @@
 
 ---
 
-### Randomizer
+### Rand-Game
 This is a console-based application written in Go that allows users to play a number-guessing game.
 
 Features
