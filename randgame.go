@@ -21,6 +21,7 @@ func userNum(max, rightAnswer, answerLang int) {
 		} else {
 			fmt.Println("Congratulations! You guessed the number!")
 		}
+		main()
 		return
 	} else if rightAnswer > answer {
 		if answerLang == 1 {
@@ -99,6 +100,7 @@ func botNum(min, max, answerLang int) {
 		} else {
 			fmt.Println("The bot won.")
 		}
+		main()
 	} else if answer == 2 {
 		min = randN + 1
 		botNum(min, max, answerLang)
