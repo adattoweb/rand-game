@@ -146,9 +146,9 @@ func main() {
 	fmt.Println("Made by adattoweb")
 	answerLang := chooseLang()
 	if answerLang == 1 {
-		fmt.Println("Вас вітає Randomaiser. Вам потрібно буде вгадати число, або загадати самим.")
+		fmt.Println("Вас вітає RandGame. Вам потрібно буде вгадати число, або загадати самим.")
 	} else {
-		fmt.Println("Randomizer welcomes you. You will need to guess the number or guess yourself.")
+		fmt.Println("RandGame welcomes you. You will need to guess the number or guess yourself.")
 	}
 	selectMode := userMode(answerLang)
 	maxN := userMax(answerLang) + 1
