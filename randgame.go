@@ -92,8 +92,17 @@ func randomaiser(min, max int) int {
 	return rand.Intn(max-min) + min
 }
 func botNum(min, max, answerLang int) {
-	randN := randomaiser(min, max)
+	randN := (max - min) / 2 + min
 	answer := checkAnswer(randN, answerLang)
+	if min == max{
+		if answerLang == 1{
+			fmt.Println("Загадане число:", randN)
+			fmt.Println("Бот переміг.")
+		} else {
+			fmt.Println("Guessed number:", randN)
+			fmt.Println("The bot won.")			
+		}
+	}
 	if answer == 1 {
 		if answerLang == 1 {
 			fmt.Println("Бот переміг.")
