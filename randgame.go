@@ -102,6 +102,7 @@ func botNum(min, max, answerLang int) {
 			fmt.Println("Guessed number:", randN)
 			fmt.Println("The bot won.")			
 		}
+		main()
 	}
 	if answer == 1 {
 		if answerLang == 1 {
